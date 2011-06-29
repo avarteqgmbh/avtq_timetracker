@@ -1,8 +1,8 @@
 // ==========================================================================
-// Project:   AvtqTimetracker
+// Project:   AvtqTimeTracker
 // Copyright: @2011 My Company, Inc.
 // ==========================================================================
-/*globals AvtqTimetracker */
+/*globals AvtqTimeTracker */
 
 /** @namespace
 
@@ -10,10 +10,10 @@
   
   @extends SC.Object
 */
-AvtqTimetracker = SC.Application.create(
-  /** @scope AvtqTimetracker.prototype */ {
+AvtqTimeTracker = SC.Application.create(
+  /** @scope AvtqTimeTracker.prototype */ {
 
-  NAMESPACE: 'AvtqTimetracker',
+  NAMESPACE: 'AvtqTimeTracker',
   VERSION: '0.1.0',
 
   // This is your application store.  You will use this store to access all

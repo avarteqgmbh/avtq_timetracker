@@ -1,8 +1,8 @@
 // ==========================================================================
-// Project:   AvtqTimetracker
+// Project:   AvtqTimeTracker
 // Copyright: @2011 My Company, Inc.
 // ==========================================================================
-/*globals AvtqTimetracker */
+/*globals AvtqTimeTracker */
 
 // This is the theme that defines how your app renders.
 //
@@ -15,12 +15,12 @@
 //
 // NOTE: if you want to change the theme this one is based on, don't
 // forget to change the :css_theme property in your buildfile.
-AvtqTimetracker.Theme = SC.AceTheme.create({
+AvtqTimeTracker.Theme = SC.AceTheme.create({
   name: 'avtq-timetracker'
 });
 
 // SproutCore needs to know that your app's theme exists
-SC.Theme.addTheme(AvtqTimetracker.Theme);
+SC.Theme.addTheme(AvtqTimeTracker.Theme);
 
 // Setting it as the default theme makes every pane SproutCore
 // creates default to this theme unless otherwise specified.

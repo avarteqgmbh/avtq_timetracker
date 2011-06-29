@@ -1,9 +1,9 @@
 # ==========================================================================
-# Project:   AvtqTimetracker
+# Project:   AvtqTimeTracker
 # Copyright: @2011 My Company, Inc.
 # ==========================================================================
 
-# This is your Buildfile for your app, AvtqTimetracker. This tells SproutCore
+# This is your Buildfile for your app, AvtqTimeTracker. This tells SproutCore
 # how to build your app. These settings override those in your project
 # Buildfile, which contains default settings for all apps in your project.
 #

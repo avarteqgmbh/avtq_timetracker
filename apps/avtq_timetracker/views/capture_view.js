@@ -1,6 +1,6 @@
-AvtqTimetracker.TimeCaptureView = SC.View.extend({
+AvtqTimeTracker.TimeCaptureView = SC.View.extend({
 
-	backgroundColor: "#000000",
+	// backgroundColor: "#000000",
 	layout: { heigth: 100, maxHeight: 100 },
 	
 
