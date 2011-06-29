@@ -14,17 +14,15 @@ AvtqTimetracker.mainPage = SC.Page.design({
     childViews: 'captureLogSplitView'.w(),
 
     captureLogSplitView: SC.SplitView.design({
-			topLeftView: AvtqTimetracker.TimeCaptureView.design({
-				
-			}), 
-			bottomRightView: SC.LabelView.design({
-				textAlign: SC.ALIGN_CENTER,
-				tagName: "h1", 
-				value: "Welcome to SproutCore!"
-			}),
-			layoutDirection: SC.LAYOUT_VERTICAL
-		}),
-
-
-  })
+      topLeftView: AvtqTimetracker.TimeCaptureView.design({}),
+    	bottomRightView: SC.LabelView.design({
+      	textAlign: SC.ALIGN_CENTER,
+      	tagName: "h1",
+      	value: "Welcome to SproutCore!"
+    	}),
+		  topLeftThickness: 100,
+			defaultThickness: 100,
+    	layoutDirection: SC.LAYOUT_VERTICAL
+  	})
+	})
 });

@@ -1,5 +1,9 @@
 AvtqTimetracker.TimeCaptureView = SC.View.extend({
 
+	backgroundColor: "#000000",
+	layout: { heigth: 100, maxHeight: 100 },
+	
+
 	// projectView tagsView descriptionView
 	childViews: 'durationView projectView descriptionView logItView'.w(),
 
