@@ -1,5 +1,6 @@
 AvtqTimeTracker.LogEntriesTableView = SC.TableView.extend({
 	backgroundColor: "white",
+	layout: { border: 5, borderLeft: 10 },
 	
 	columns: [
 		SC.TableColumn.create({
