@@ -19,8 +19,7 @@ AvtqTimetracker.mainPage = SC.Page.design({
       	textAlign: SC.ALIGN_CENTER,
       	tagName: "h1",
       	value: "Welcome to SproutCore!"
-    	}),
-		  topLeftThickness: 100,
+    	}),	
 			defaultThickness: 100,
     	layoutDirection: SC.LAYOUT_VERTICAL
   	})
