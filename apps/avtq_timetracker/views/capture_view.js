@@ -1,3 +1,5 @@
+sc_require('views/default_text_field_view');
+
 AvtqTimeTracker.TimeCaptureView = SC.View.extend({
 
 	// backgroundColor: "#000000",
@@ -7,19 +9,19 @@ AvtqTimeTracker.TimeCaptureView = SC.View.extend({
 	// projectView tagsView descriptionView
 	childViews: 'durationView projectView descriptionView logItView'.w(),
 
-	durationView: SC.TextFieldView.design({
+	durationView: AvtqTimeTracker.DefaultTextFieldView.design({
 		layout: { left: 15, top: 30, width: 50, height: 24 },
-		value: "Time"
+		defaultValue: "Time"		
 	}),
 
-	projectView: SC.TextFieldView.design({
+	projectView: AvtqTimeTracker.DefaultTextFieldView.design({
 		layout: { left: 70, top: 30, width: 125, height: 24 },
-		value: "Project"
+		defaultValue: "Project"
 	}),
 
-	descriptionView: SC.TextFieldView.design({
+	descriptionView: AvtqTimeTracker.DefaultTextFieldView.design({
 		layout: { left: 200, top: 30, width: 200, height: 24 },
-		value: "Description"
+		defaultValue: "Description"
 	}),
 
 	logItView: SC.ButtonView.design({
