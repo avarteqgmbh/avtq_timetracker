@@ -1,8 +1,17 @@
 AvtqTimeTracker.LogEntriesTableView = SC.TableView.extend({
 	backgroundColor: "white",
-	layout: { border: 5, borderLeft: 10 },
+	layout: { border: 5, borderLeft: 15 },
 	
 	columns: [
+		SC.TableColumn.create({
+			key: 'date',
+			label: 'Date',
+			width: 80,
+			formatter: function(value, column) {
+				return value.toFormattedString("%d.%m.%Y");
+			}
+		}),
+		
 		SC.TableColumn.create({
 			key: 'amount',
 			label: 'Amount',
