@@ -16,6 +16,8 @@ AvtqTimeTracker.DefaultTextFieldView = SC.TextFieldView.extend({
 	
 	// Constructor
 	init: function() {
+		
+		// You have to call sc_super!
 		sc_super();
 		this.value = this.defaultValue;
 	}
